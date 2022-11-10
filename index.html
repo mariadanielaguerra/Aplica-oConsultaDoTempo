@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tempo</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="firstBox">
+        <h2>Tempo agora</h2>
+        <img src="imagens/chuva dia.png" alt="" width="120px" id="img1" />
+        <input type="text" id="cidade" placeholder=" Digite sua cidade " />
+        <br />
+        <input type="submit" value="ver " onclick="carregar()" id="btn" />
+      </div>
+      <div id="secondBox">
+        <div class="header">
+          <p id="city"></p>
+          <p id="date"></p>
+        </div>
+
+        <div class="tempo">
+          <p id="temp"></p>
+          <span>°C</span>
+        </div>
+
+        <div class="img">
+          <img src="imagens/chuva dia.png" alt="" id="tempoimg" />
+        </div>
+
+        <div class="info">
+          <p id="description"></p>
+          <p id="humidity"></p>
+          <p id="wind_speedy"></p>
+          <p id="sunrise"></p>
+          <p id="sunset"></p>
+        </div>
+
+        <input type="submit" value="Voltar" id="btn2" onclick="voltar()" />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
