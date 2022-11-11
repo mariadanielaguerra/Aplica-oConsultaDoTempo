@@ -1,6 +1,7 @@
-Projeto API de consulta do tempo
+<h1>Projeto API de consulta do tempo<h1/>
+
 Site com consulta do tempo real em diferentes cidades brasileiras.
 
-![Consulta do tempo - screenshot (1)](https://user-images.githubusercontent.com/117870057/201221837-73c0b73c-4538-41c9-ba6f-475bd6480b3f.png)
+![Component 1](https://user-images.githubusercontent.com/117870057/201236445-7ee5a035-19d7-4b2b-901d-8c03915fd761.png)
 
 
